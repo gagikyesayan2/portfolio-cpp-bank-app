@@ -8,7 +8,11 @@
 *.pdb
 *.idb
 *.tlog
-
+.vs/
+*.vcxproj.user
+x64/
+*.obj
+*.exe.recipe
 # Ignore logs and temporary files
 *.log
 *.tmp

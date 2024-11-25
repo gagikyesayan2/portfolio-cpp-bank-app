@@ -1,0 +1,14 @@
+# Ignore build outputs
+/x64/
+/Debug/
+/Release/
+
+# Ignore Visual Studio temporary files
+*.ilk
+*.pdb
+*.idb
+*.tlog
+
+# Ignore logs and temporary files
+*.log
+*.tmp

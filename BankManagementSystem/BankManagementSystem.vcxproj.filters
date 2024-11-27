@@ -15,27 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Account.cpp">
+    <ClCompile Include="src\Account.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Customer.h">
+    <ClCompile Include="header\Customer.h">
       <Filter>Header/Interfaces</Filter>
     </ClCompile>
-    <ClCompile Include="Customer.cpp">
+    <ClCompile Include="src\Customer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Bank.h">
+    <ClCompile Include="header\Bank.h">
       <Filter>Header/Interfaces</Filter>
     </ClCompile>
-    <ClCompile Include="Bank.cpp">
+    <ClCompile Include="src\Bank.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Account.h">
+    <ClInclude Include="header\Account.h">
       <Filter>Header/Interfaces</Filter>
     </ClInclude>
   </ItemGroup>

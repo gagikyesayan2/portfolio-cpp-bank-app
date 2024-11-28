@@ -1,17 +1,22 @@
-#ifndef Account_H  // Check if MY_CLASS_H is not defined
-#define Account_H  // Define MY_CLASS_H
+#ifndef Account_H  
+#define Account_H  
+#include <string>
+#include <iostream>
+using namespace std;
 
 class Account {
 private:
-	double balance;
-	int account_id;
+	 double balance;
+	 string customer_id;
 
 public:
-	  Account(int account_id, double balance);
-    
+	   Account(string &customer_id, double balance);
+	   string getId() const { return customer_id; }
+	
+
 	  void checkBalance();
-	  void deposit(double amount);
-	  void withdraw(double amount);
+	  static void deposit(double amount,string customer_id);
+	 //inline void withdraw(double amount);
 
 };
 

@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "Bank.h"
+#include "../header/Bank.h"
 
 
 void Bank::addCustomer(Customer& customer) {

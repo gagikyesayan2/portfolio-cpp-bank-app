@@ -9,7 +9,6 @@
 #include "Customer.h"
 using namespace std;
 
-
 class Bank {
 private:
 	vector<Customer> customers;

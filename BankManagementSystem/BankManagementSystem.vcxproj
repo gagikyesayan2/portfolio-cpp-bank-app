@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Account.cpp" />
-    <ClCompile Include="src\Bank.cpp" />
+    <ClCompile Include="app\Account.cpp" />
+    <ClCompile Include="app\Bank.cpp" />
     <ClCompile Include="header\Bank.h" />
-    <ClCompile Include="src\Main.cpp" />
-    <ClCompile Include="src\Customer.cpp" />
+    <ClCompile Include="app\Main.cpp" />
+    <ClCompile Include="app\Customer.cpp" />
     <ClCompile Include="header\Customer.h" />
   </ItemGroup>
   <ItemGroup>

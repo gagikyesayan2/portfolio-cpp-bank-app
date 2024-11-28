@@ -15,22 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Main.cpp">
+    <ClCompile Include="app\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Account.cpp">
+    <ClCompile Include="app\Account.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="header\Customer.h">
       <Filter>Header/Interfaces</Filter>
     </ClCompile>
-    <ClCompile Include="src\Customer.cpp">
+    <ClCompile Include="app\Customer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="header\Bank.h">
       <Filter>Header/Interfaces</Filter>
     </ClCompile>
-    <ClCompile Include="src\Bank.cpp">
+    <ClCompile Include="app\Bank.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
